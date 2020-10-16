@@ -3,9 +3,6 @@ require 'net/http'
 require 'json'
 
 class GetRequester
-  attr_accessor :uri, :URL, :response
-
-
   def initialize(url)
     @url = url
   end
